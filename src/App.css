@@ -85,6 +85,16 @@ td{
   margin-right: 8px;
 }
 .ttask{
-  position: relative;
-  left: 30%;
+  text-align: center;
+}
+.container1{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+@media (max-width:800px) {
+  .container1{
+    display: grid;
+    grid: 1fr 1fr / 1fr /1fr
+  }
 }
